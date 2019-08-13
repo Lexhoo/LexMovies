@@ -1,0 +1,592 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190809.080030.13932.0.001.json",
+    "dumpEventTime": "2019-08-09T08:00:30Z",
+    "dumpEventTimeStamp": "1565330430867",
+    "processId": 13932,
+    "cwd": "C:\\Users\\Talété\\Documents\\lexnative\\LexMovies",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Talété\\AppData\\Roaming\\npm\\\\node_modules\\expo-cli\\bin\\expo.js",
+      "start"
+    ],
+    "nodejsVersion": "v12.7.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.7.0",
+      "v8": "7.5.288.22-node.16",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.1",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.7.0/node-v12.7.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.7.0/node-v12.7.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.7.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17134",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 8799312,
+        "nice": 0,
+        "sys": 8464953,
+        "idle": 121127718,
+        "irq": 783531
+      },
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 8799312,
+        "nice": 0,
+        "sys": 8464953,
+        "idle": 121127718,
+        "irq": 783531
+      },
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 8799312,
+        "nice": 0,
+        "sys": 8464953,
+        "idle": 121127718,
+        "irq": 783531
+      },
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 8799312,
+        "nice": 0,
+        "sys": 8464953,
+        "idle": 121127718,
+        "irq": 783531
+      }
+    ],
+    "host": "DESKTOP-KR1UPDL"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7804a6b89",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7804aa4fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7804a94a8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7805933db",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780d7a3de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780d6272a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780bf3e3c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780bfbd6f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780bf2003",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780bf0894",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780c0f375",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7809c56ed",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78119982d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff781137b42",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7811ed62c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78110dcdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78110dcdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78110dcdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff781138937",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7811620e2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78112ccd2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78110b4fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780c3f7f4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780c3f903",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780c3ffd2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780b182e5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780606071",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7806063e1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7805ffb03",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78058fbe3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780585351",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7806352c7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780631eab",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78063164c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff780631814",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78055c511",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7805b70d3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78047c8dc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78128cea8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffe93293034",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffe94ef1431",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 72986624,
+    "totalCommittedMemory": 72986624,
+    "usedMemory": 66263400,
+    "availableMemory": 2132229304,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047328,
+        "used": 1047296,
+        "available": 32
+      },
+      "old_space": {
+        "memorySize": 60436480,
+        "committedMemory": 60436480,
+        "capacity": 60333280,
+        "used": 55297344,
+        "available": 5035936
+      },
+      "code_space": {
+        "memorySize": 1474560,
+        "committedMemory": 1474560,
+        "capacity": 1335584,
+        "used": 1087712,
+        "available": 247872
+      },
+      "map_space": {
+        "memorySize": 3674112,
+        "committedMemory": 3674112,
+        "capacity": 3668712,
+        "used": 2829120,
+        "available": 839592
+      },
+      "large_object_space": {
+        "memorySize": 5468160,
+        "committedMemory": 5468160,
+        "capacity": 5419664,
+        "used": 5419664,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550304,
+        "used": 550304,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 16.5,
+    "kernelCpuSeconds": 8.64,
+    "cpuConsumptionPercent": 0.0349769,
+    "maxRss": 139579392,
+    "pageFaults": {
+      "IORequired": 136657,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 9055,
+      "writes": 19
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Talété\\Documents\\lexnative\\LexMovies",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Talété\\AppData\\Roaming",
+    "asl.log=Destination": "file",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-KR1UPDL",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DASHLANE_DLL_DIR": "C:\\Users\\Talété\\AppData\\Roaming\\Dashlane\\6.1903.0.16930\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\Talété\\AppData\\Roaming\\Dashlane\\6.1903.0.16930\\ucrt;C:\\Users\\Talété\\AppData\\Roaming\\Dashlane\\6.1903.0.16930\\bin\\Qt;C:\\Users\\Talété\\AppData\\Roaming\\Dashlane\\6.1903.0.16930\\bin\\Ssl",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOME": "C:\\Users\\Talété",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Talété",
+    "INIT_CWD": "C:\\Users\\Talété\\Documents\\lexnative\\LexMovies",
+    "LANG": "fr_FR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Talété\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-KR1UPDL",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_config_access": "",
+    "npm_config_allow_same_version": "",
+    "npm_config_also": "",
+    "npm_config_always_auth": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"start\"],\"original\":[\"start\"]}",
+    "npm_config_audit": "true",
+    "npm_config_audit_level": "low",
+    "npm_config_auth_type": "legacy",
+    "npm_config_before": "",
+    "npm_config_bin_links": "true",
+    "npm_config_browser": "",
+    "npm_config_ca": "",
+    "npm_config_cache": "C:\\Users\\Talété\\AppData\\Roaming\\npm-cache",
+    "npm_config_cache_lock_retries": "10",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_config_cache_max": "Infinity",
+    "npm_config_cache_min": "10",
+    "npm_config_cafile": "",
+    "npm_config_cert": "",
+    "npm_config_cidr": "",
+    "npm_config_color": "true",
+    "npm_config_commit_hooks": "true",
+    "npm_config_depth": "Infinity",
+    "npm_config_description": "true",
+    "npm_config_dev": "",
+    "npm_config_dry_run": "",
+    "npm_config_editor": "notepad.exe",
+    "npm_config_engine_strict": "",
+    "npm_config_fetch_retries": "2",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "npm_config_force": "",
+    "npm_config_git": "git",
+    "npm_config_git_tag_version": "true",
+    "npm_config_global": "",
+    "npm_config_globalconfig": "C:\\Users\\Talété\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_globalignorefile": "C:\\Users\\Talété\\AppData\\Roaming\\npm\\etc\\npmignore",
+    "npm_config_global_style": "",
+    "npm_config_group": "",
+    "npm_config_ham_it_up": "",
+    "npm_config_heading": "npm",
+    "npm_config_https_proxy": "",
+    "npm_config_if_present": "",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_author_email": "",
+    "npm_config_init_author_name": "",
+    "npm_config_init_author_url": "",
+    "npm_config_init_license": "ISC",
+    "npm_config_init_module": "C:\\Users\\Talété\\.npm-init.js",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_json": "",
+    "npm_config_key": "",
+    "npm_config_legacy_bundling": "",
+    "npm_config_link": "",
+    "npm_config_local_address": "",
+    "npm_config_loglevel": "notice",
+    "npm_config_logs_max": "10",
+    "npm_config_long": "",
+    "npm_config_maxsockets": "50",
+    "npm_config_message": "%s",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_node_options": "",
+    "npm_config_node_version": "12.7.0",
+    "npm_config_noproxy": "",
+    "npm_config_offline": "",
+    "npm_config_onload_script": "",
+    "npm_config_only": "",
+    "npm_config_optional": "true",
+    "npm_config_otp": "",
+    "npm_config_package_lock": "true",
+    "npm_config_package_lock_only": "",
+    "npm_config_parseable": "",
+    "npm_config_prefer_offline": "",
+    "npm_config_prefer_online": "",
+    "npm_config_prefix": "C:\\Users\\Talété\\AppData\\Roaming\\npm",
+    "npm_config_prefix_usr_local": "",
+    "npm_config_preid": "",
+    "npm_config_production": "",
+    "npm_config_progress": "true",
+    "npm_config_proxy": "",
+    "npm_config_read_only": "",
+    "npm_config_rebuild_bundle": "true",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_rollback": "true",
+    "npm_config_save": "true",
+    "npm_config_save_bundle": "",
+    "npm_config_save_dev": "",
+    "npm_config_save_exact": "",
+    "npm_config_save_optional": "",
+    "npm_config_save_prefix": "^",
+    "npm_config_save_prod": "",
+    "npm_config_scope": "",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "npm_config_script_shell": "",
+    "npm_config_searchexclude": "",
+    "npm_config_searchlimit": "20",
+    "npm_config_searchopts": "",
+    "npm_config_searchstaleness": "900",
+    "npm_config_send_metrics": "",
+    "npm_config_shell": "C:\\WINDOWS\\system32\\cmd.exe",
+    "npm_config_shrinkwrap": "true",
+    "npm_config_sign_git_commit": "",
+    "npm_config_sign_git_tag": "",
+    "npm_config_sso_poll_frequency": "500",
+    "npm_config_sso_type": "oauth",
+    "npm_config_strict_ssl": "true",
+    "npm_config_tag": "latest",
+    "npm_config_tag_version_prefix": "v",
+    "npm_config_timing": "",
+    "npm_config_tmp": "C:\\Users\\TALT~1\\AppData\\Local\\Temp",
+    "npm_config_umask": "0000",
+    "npm_config_unicode": "",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_update_notifier": "true",
+    "npm_config_usage": "",
+    "npm_config_user": "",
+    "npm_config_userconfig": "C:\\Users\\Talété\\.npmrc",
+    "npm_config_user_agent": "npm/6.10.0 node/v12.7.0 win32 x64",
+    "npm_config_version": "",
+    "npm_config_versions": "",
+    "npm_config_viewer": "browser",
+    "npm_execpath": "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "expo start",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_dependencies_expo": "^34.0.1",
+    "npm_package_dependencies_moment": "^2.24.0",
+    "npm_package_dependencies_numeral": "^2.0.6",
+    "npm_package_dependencies_react": "16.8.3",
+    "npm_package_dependencies_react_dom": "^16.8.6",
+    "npm_package_dependencies_react_native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "npm_package_dependencies_react_native_gesture_handler": "^1.3.0",
+    "npm_package_dependencies_react_native_web": "^0.11.4",
+    "npm_package_dependencies_react_navigation": "^3.11.1",
+    "npm_package_dependencies_react_redux": "^7.1.0",
+    "npm_package_dependencies_redux": "^4.0.4",
+    "npm_package_devDependencies_babel_preset_expo": "^6.0.0",
+    "npm_package_main": "node_modules/expo/AppEntry.js",
+    "npm_package_name": "",
+    "npm_package_private": "true",
+    "npm_package_scripts_android": "expo start --android",
+    "npm_package_scripts_eject": "expo eject",
+    "npm_package_scripts_ios": "expo start --ios",
+    "npm_package_scripts_start": "expo start",
+    "npm_package_scripts_web": "expo start --web",
+    "npm_package_version": "",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\Tal├®t├®\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Talété\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Talété\\AppData\\Roaming\\npm\\node_modules\\expo-cli\\node_modules\\@expo\\xdl\\binaries\\windows\\adb;C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;C:\\Users\\Talété\\Documents\\lexnative\\LexMovies\\node_modules\\.bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\Talété\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 21 Model 101 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "21",
+    "PROCESSOR_REVISION": "6501",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Talété\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\TALT~1\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.36.1",
+    "TMP": "C:\\Users\\TALT~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-KR1UPDL",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-KR1UPDL",
+    "USERNAME": "Talété",
+    "USERPROFILE": "C:\\Users\\Talété",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\Program Files\\AVAST Software\\Avast\\aswhook.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\System32\\wshbth.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}
